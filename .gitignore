@@ -66,3 +66,23 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Build output
+build/
+cmake-build-*/
+out/
+
+# Runtime data (contains PIN hashes and customer records - never commit)
+data/*
+!data/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
+*.csv
